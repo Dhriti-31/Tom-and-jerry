@@ -67,7 +67,7 @@ function draw() {
 function keyPressed(){
 
   //For moving and changing animation write code here
- if(keyCode === LEFT-ARROW) {
+ if(keyCode === LEFT_ARROW) {
      jerry.addAnimation("mouseTeasing",jerryImg2);
      jerry.changeAnimation("mouseTeasing");
      jerry.frameDelay = 25;
