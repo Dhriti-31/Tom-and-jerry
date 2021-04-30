@@ -18,7 +18,7 @@ jerryImg3 = loadImage("images/mouse4.png");
 function setup(){
     createCanvas(1000,800);
     //create tom and jerry sprites here
-    tom = createSprite(400,600);
+    tom = createSprite(800,900);
     tom.addAnimation("tomsleeping",tomImg1);
     tom.scale = 0.2;
 
